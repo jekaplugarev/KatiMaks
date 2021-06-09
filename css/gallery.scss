@@ -1,0 +1,60 @@
+.gallery {
+	width: 100%;
+	padding: $padding-lg-s;
+    background-color: $color-1;
+    @media (max-width: 767px) {
+        padding: $padding-sm-s;
+    }
+    &__title {
+        color: $color-2;
+        text-transform: uppercase;
+    	text-align: center;
+    	@include adaptiv-font(50, 40);
+    	margin-bottom: 50px;
+    	background: linear-gradient(90deg, transparent, $color-5, transparent) 0 100% repeat-x;
+		background-size: 100% 1px;
+		padding-bottom: 10px;
+	}
+    &__container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    &__arrows {
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+.carousel {
+    height: 600px;
+    @media (max-width: 767px) {
+        height: 450px;
+    }
+    @media (max-width: 349px) {
+        height: 350px;
+    }
+}
+.carousel-inner img {
+    height: 600px;
+    margin: 0 auto;
+    @media (max-width: 767px) {
+        height: 450px;
+    }
+    @media (max-width: 349px) {
+        height: 350px;
+    }
+}
+.carousel-control-next-icon {
+    background-image: url(../img/rightarrow.svg);
+    transform: scale(2);
+    @media (max-width: 481px) {
+        transform: scale(1);
+    } 
+}
+.carousel-control-prev-icon {
+    background-image: url(../img/leftarrow.svg);
+    transform: scale(2);
+    @media (max-width: 481px) {
+        transform: scale(1);
+    } 
+}

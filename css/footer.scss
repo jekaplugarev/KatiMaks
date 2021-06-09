@@ -1,0 +1,21 @@
+.footer {
+	padding: 30px 0;
+	width: 100%;
+	background-color: $color-1;
+	color: $color-2;
+&-dev {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+		&_link {
+			color: $color-2;
+			font-style: italic;
+			@include adaptiv-font(10, 10);
+		}
+		&_link:hover {
+			color: $color-2;
+			opacity: 0.8;
+		}
+	}
+}

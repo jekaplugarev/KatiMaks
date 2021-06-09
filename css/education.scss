@@ -1,0 +1,47 @@
+.education {
+    width: 100%;
+    height: 100vh;
+    background: url("https://lh3.googleusercontent.com/YCGhUWnIgUBIlVc9vt0-OKy-aExXt16i22zIIJTlBP80mC5W3ZqieAlJf2BJ4axkbMT1irATxikwUBcMUXJgnoE=w1500-h1000-l95") fixed top center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    &:before {
+        content: "";
+        background: $color-7;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    &__title {
+        margin: 0;
+        @include adaptiv-font(56, 40);
+        font-weight: 700;
+        color: $color-1;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, transparent, $color-5, transparent) 0 100% repeat-x;
+        background-size: 100% 1px;
+        padding-bottom: 10px;
+    }
+     &__subtitle {
+        @include adaptiv-font(48, 32);
+        font-weight: 600; 
+        color: $color-1;
+        margin: 50px 0;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin: 40px 0;
+        @include adaptiv-font(16, 16);
+        color: $color-1;
+        @media (max-width: 481px) {
+        margin: 25px 0;
+        }
+    }
+}
+.education .container {
+    position: relative;
+    padding-top: 3em;
+}

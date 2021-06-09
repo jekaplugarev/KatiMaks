@@ -1,0 +1,70 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: $color-1;
+	width: 100vw;
+	&__tel {
+		@include adaptiv-font(16, 16);
+		width: 20%;
+		color: $color-6;
+		&:hover {
+			color: $color-6;
+			opacity: 0.8;
+		}
+		@media (max-width: 1199px) {
+			display: none;
+		}
+	}
+	&__tel-mobile {
+		display: none;
+		@media (max-width: 1199px) {
+			display: flex;
+			padding-right: 20px;
+		}
+		@media (max-width: 400px) {
+			padding-right: 10px;
+		}
+	}
+	&__tel-mobile img {
+		width: 40px;
+		transition: all 0s ease-out;
+	}
+	&__tel-mobile img:hover {
+		transform: scale(1.1);		
+	}
+	&__nav {
+		display: flex;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+	color: $color-6;
+}
+.navbar-brand {
+	text-transform: uppercase;
+	font-weight: 700;
+	@include adaptiv-font(20, 18);
+	background: linear-gradient(90deg, transparent, $color-5, transparent) 0 100% repeat-x;
+	background-size: 100% 3px;
+	padding-bottom: 8px;
+	letter-spacing: 0.3em;
+	@media (max-width: 400px) {
+		margin-right: 0;
+	}
+}
+.nav-link {
+	@include adaptiv-font(16, 16);
+}
+.dropdown-item {
+	@include adaptiv-font(16, 16);
+}
+@media (max-width: 400px) {
+	.container-fluid {
+		padding: 0;
+	}
+}
+@media (max-width: 319px) {
+	.header .container {
+		padding: 0 5px;
+	}
+}

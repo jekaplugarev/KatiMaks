@@ -1,0 +1,43 @@
+.price-education {
+	width: 100%;
+    padding: $padding-lg-s;
+    background-color: $color-1;
+    &__title {
+        @include adaptiv-font(24, 24);
+        text-transform: uppercase;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    &__list {
+        @include adaptiv-font(16, 16);
+        display: flex;
+        justify-content: center;
+        line-height: 1.5em;
+        text-align: left;
+        @media (max-width: 767px) {
+            justify-content: start;
+        }
+        &_plan {
+            line-height: 1.5em;
+            @include adaptiv-font(16, 16);
+        }
+    }
+    &__list p {
+        margin-bottom: 0;
+        @media (max-width: 767px) {
+            margin-bottom: 16px;
+        }
+    }
+    &__money {
+        @include adaptiv-font(24, 24);
+        text-transform: uppercase;
+        text-align: right;
+        @media (max-width: 767px) {
+            text-align: left;
+        }
+    }
+    @media (max-width: 767px) {
+        padding: $padding-sm-s;
+    }
+}

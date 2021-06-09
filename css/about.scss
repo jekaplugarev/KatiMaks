@@ -1,0 +1,31 @@
+.about {
+	width: 100%;
+    padding: $padding-lg;
+    background-color: $color-1;
+    &__title {
+    	color: $color-2;
+        text-transform: uppercase;
+        text-align: center;
+        @include adaptiv-font(50, 36);
+        margin-bottom: 50px;
+        background: linear-gradient(90deg, transparent, $color-5, transparent) 0 100% repeat-x;
+        background-size: 100% 1px;
+        padding-bottom: 10px;
+	}
+    &__text {
+    	@include adaptiv-font(36, 20);
+    	font-weight: 600;
+        color: $color-2;
+    }
+    &__hair {
+        @include adaptiv-font(16, 16);
+    	}
+    &__care {
+    	@include adaptiv-font(16, 16);
+        }
+    @media (max-width: 767px) {
+        padding: $padding-sm;
+    }
+}
+
+
