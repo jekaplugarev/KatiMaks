@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 .hello {
   width: 100%;
   height: 100vh;
-  background: url(../img/hello.jpg) fixed top center;
+  background: url(../img/hello.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 .hair {
   width: 100%;
   height: 100vh;
-  background: url(../img/hair.jpg) fixed top center;
+  background: url(../img/hair.jpg) top center;
   background-size: cover;
   position: relative;
   top: 0;
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 .happy {
   width: 100%;
   height: 100vh;
-  background: url(../img/happy.jpg) fixed top center;
+  background: url(../img/happy.jpg) top center;
   background-size: cover;
   position: relative;
   top: 0;
@@ -667,7 +667,7 @@ h1, h2, h3, h4, h5, h6 {
 .olaplex {
   width: 100%;
   height: 100vh;
-  background: url(../img/olaplex.jpg) fixed top center;
+  background: url(../img/olaplex.jpg) top center;
   background-size: cover;
   position: relative;
   top: 0;
@@ -828,7 +828,7 @@ h1, h2, h3, h4, h5, h6 {
 .hyde {
   width: 100%;
   height: 100vh;
-  background: url(../img/hyde.jpg) fixed top center;
+  background: url(../img/hyde.jpg) top center;
   background-size: cover;
   position: relative;
   top: 0;
@@ -968,7 +968,7 @@ h1, h2, h3, h4, h5, h6 {
 .education {
   width: 100%;
   height: 100vh;
-  background: url(../img/education.jpg) fixed top center;
+  background: url(../img/education.jpg) top center;
   background-size: cover;
   position: relative;
   top: 0;
