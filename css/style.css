@@ -203,7 +203,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url(../img/hello.jpg) top center;
+  background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
   position: relative;
 }
 .hello:before {
