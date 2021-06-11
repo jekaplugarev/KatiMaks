@@ -44,7 +44,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	@include adaptiv-font(20, 18);
-	background: linear-gradient(90deg, #f7f7f7, $color-5, #f7f7f7) 0 100% repeat-x;
+	background: linear-gradient(90deg, transparent, $color-5, transparent) 0 100% repeat-x;
 	background-size: 100% 3px;
 	padding-bottom: 8px;
 	letter-spacing: 0.3em;
