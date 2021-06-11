@@ -46,7 +46,6 @@
         @include adaptiv-font(16, 16);
         overflow: hidden;
         padding: 20px 15px;
-        transition: 0.2s;
         width: 230px;
         text-align: center;
         background: $color-5;
@@ -55,6 +54,6 @@
     }
     &__item:hover {
         color: $color-6;
-        box-shadow: 0px 5px 10px $color-8;
+        box-shadow: 0 5px 10px $color-8;
     }
 }
